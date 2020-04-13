@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-const laletaxtStyle = TextStyle(
-    fontSize: 18.0,color: Color(0xff8d8e98)
-);
-
+import '../constants.dart';
 class IconContain extends StatelessWidget {
 
   IconContain({this.lable,this.icon});
@@ -22,7 +19,7 @@ class IconContain extends StatelessWidget {
         SizedBox(
           height: 15.0,
         ),
-        Text(lable,style:laletaxtStyle)
+        Text(lable,style:kLabletaxtStyle)
 
       ],
     );
